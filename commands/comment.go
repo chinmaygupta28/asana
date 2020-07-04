@@ -8,10 +8,10 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/codegangsta/cli"
+	"github.com/urfave/cli"
 
-	"github.com/thash/asana/api"
-	"github.com/thash/asana/utils"
+	"github.com/chinmaygupta28/asana/api"
+	"github.com/chinmaygupta28/asana/utils"
 )
 
 func Comment(c *cli.Context) {

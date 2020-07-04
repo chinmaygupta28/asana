@@ -1,0 +1,4 @@
+github.com/thash/asana v0.2.1 h1:8u+ro7ApGzUtY6N81ydx4ueCjHFf3wpEtL175LN4QIg=
+github.com/thash/asana v0.2.1/go.mod h1:DAQr24OaBQrSVdO1uVri5t/BMuptPTHtWcybfbnwtmI=
+gopkg.in/yaml.v1 v1.0.0-20140924161607-9f9df34309c0 h1:POO/ycCATvegFmVuPpQzZFJ+pGZeX22Ufu6fibxDVjU=
+gopkg.in/yaml.v1 v1.0.0-20140924161607-9f9df34309c0/go.mod h1:WDnlLJ4WF5VGsH/HVa3CI79GS0ol3YnhVnKP89i0kNg=

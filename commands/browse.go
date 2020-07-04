@@ -1,14 +1,14 @@
 package commands
 
 import (
-	"strconv"
 	"os/exec"
+	"strconv"
 
-    "github.com/codegangsta/cli"
+	"github.com/urfave/cli"
 
-	"github.com/thash/asana/api"
-	"github.com/thash/asana/config"
-	"github.com/thash/asana/utils"
+	"github.com/chinmaygupta28/asana/api"
+	"github.com/chinmaygupta28/asana/config"
+	"github.com/chinmaygupta28/asana/utils"
 )
 
 func Browse(c *cli.Context) {

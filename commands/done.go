@@ -3,9 +3,9 @@ package commands
 import (
 	"fmt"
 
-	"github.com/codegangsta/cli"
+	"github.com/urfave/cli"
 
-	"github.com/thash/asana/api"
+	"github.com/chinmaygupta28/asana/api"
 )
 
 func Done(c *cli.Context) {

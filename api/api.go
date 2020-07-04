@@ -6,8 +6,8 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/thash/asana/config"
-	"github.com/thash/asana/utils"
+	"github.com/chinmaygupta28/asana/config"
+	"github.com/chinmaygupta28/asana/utils"
 )
 
 const (
@@ -53,7 +53,7 @@ func fire(req *http.Request) []byte {
 	client := &http.Client{}
 
 	req.Header.Set("User-Agent", UserAgent)
-	req.Header.Set("Authorization", "Bearer " + config.Load().Personal_access_token)
+	req.Header.Set("Authorization", "Bearer "+config.Load().Personal_access_token)
 
 	resp, err := client.Do(req)
 	body, err := ioutil.ReadAll(resp.Body)

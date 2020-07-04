@@ -1,17 +1,18 @@
 package config
 
 import (
-	"github.com/thash/asana/utils"
+	"github.com/chinmaygupta28/asana/utils"
 
 	"fmt"
-	"gopkg.in/yaml.v1"
 	"io/ioutil"
 	"os"
+
+	"gopkg.in/yaml.v1"
 )
 
 type Conf struct {
 	Personal_access_token string
-	Workspace int
+	Workspace             int
 }
 
 func Load() Conf {
